@@ -1,0 +1,5 @@
+<mat-card class="time-widget">
+    <span>{{ year }}-{{ month }}-{{ date }} {{ hour }}:{{ minute }}:{{ second }}</span>
+    &nbsp;&nbsp;
+    <span [class.dayOfWeek]="isHoliday">{{ dayOfWeek }}</span>
+</mat-card>
